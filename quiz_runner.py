@@ -15,8 +15,8 @@ Questions = [
 def run_test(Questions):
     score = 0
     for Q in Questions:
-        answer = input(Question.prompt)
-        if answer == Question.answer:
+        answer = input(Q.prompt)
+        if answer == Q.answer:
          score += 1
     print("You got " + str(score)+" out of "+ str(len(Questions)))
 
