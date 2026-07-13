@@ -1,4 +1,4 @@
-from e1_Questions import Question
+from questions import Question
 
 Question_prompts = [
     "Whats the color of apple\n(1) Red\n(2) Blue\n(3) Yellow\n",
